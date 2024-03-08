@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For backend simultion json-server has been used and there is mock_data_load.json insade ./data.
 Use command:
-### `json-server --watch ./data/mock_data_load.json
-To start db service. Be avear to start db on [local](http://localhost:3000). If not make sure that BASE_PATH is changed regarding your set up.
-You can read more about it on https://github.com/typicode/json-server
+### json-server --watch ./data/mock_data_load.json
+To start db service. Be aware to start db on [local](http://localhost:3000). If not make sure that BASE_PATH is changed regarding your setup.
+You can read more about it at https://github.com/typicode/json-server
 
 ## Available Scripts
 
