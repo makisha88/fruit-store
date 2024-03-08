@@ -1,0 +1,36 @@
+.TabHolder {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+.Tab,
+.ActiveTab {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  padding: 16px 24px;
+  background-color: #4e036c;
+}
+.ActiveTab {
+  background-color: #540474;
+}
+.TabBody {
+  width: 100%;
+  background-color: #540474;
+  padding: 48px 24px 48px 24px;
+  border-radius: 0 9px 9px 9px;
+}
+
+@media (max-width: 450px) {
+  .Tab,
+  .ActiveTab {
+    padding: 8px 12px;
+  }
+  .TabBody {
+    padding: 26px 12px;
+  }
+}

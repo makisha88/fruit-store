@@ -1,0 +1,57 @@
+.Wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Header {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #8a06bf;
+}
+.Header h1 {
+  font-size: 56px;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  margin-bottom: 36px;
+}
+.ButtonsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+}
+.TabsWrapper {
+  width: 100%;
+  margin-top: 72px;
+}
+.TabsWrapper > h3 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1300px) {
+  .Wrapper {
+    width: 95%;
+  }
+  .Header {
+    padding-top: 10px;
+  }
+  .Header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .TabsWrapper {
+    margin-top: 30px;
+  }
+}

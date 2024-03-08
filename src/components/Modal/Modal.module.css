@@ -1,0 +1,27 @@
+.Modal {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 12px;
+    background-color: #4A0267;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+}
+.ModalNoOverflow {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 12px;
+    background-color: #4A0267;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    position: relative;
+    max-height: 100%;
+}

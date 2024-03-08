@@ -1,0 +1,68 @@
+.Wrapper {
+    width: 100%;
+}
+.Wrapper > button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.Title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.TableWrapper {
+    width: 100%;
+}
+.TableWrapper table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    border-style: none;
+}
+.TableWrapper table tr,
+.TableWrapper table th {
+    border: 0;
+    border-collapse: collapse;
+    padding: 0;
+    position: relative;
+}
+.TableWrapper thead tr:first-child p {
+    background-color: #540474;
+    color: #FFFFFFB8 !important;
+    cursor: auto !important;
+    font-weight: 600;
+}
+.TableWrapper thead tr:first-child > th:last-child p {
+    border-radius: 0 8px 0 0;
+}
+.TableWrapper thead tr:first-child > th:first-child p {
+    border-radius: 8px 0 0 0;
+}
+.TableWrapper tbody tr p {
+    background-color: #6B048C;
+}
+.TableWrapper tr:nth-child(even) p {
+    background-color: #5F037E;
+}
+.TableWrapper tbody tr:last-child > th:last-child p {
+    border-radius: 0 0 8px 0;
+}
+.TableWrapper tbody tr:last-child > th:first-child p {
+    border-radius: 0 0 0 8px;
+}
+.TableWrapper p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.TableWrapper tr th:last-child p {
+    color: #FF7070;
+    cursor: pointer;
+}
